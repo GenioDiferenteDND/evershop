@@ -1,4 +1,3 @@
-
 {
   "shop": {
     "currency": "MZN",
@@ -88,7 +87,7 @@
         "resolve": "node_modules/@evershop/sendgrid",
         "enabled": true,
         "priority": 2,
-        "apiKey": "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",
+        "apiKey": "",
         "from": "support@e-moio.com",
         "events": {
           "order_placed": {
@@ -111,8 +110,8 @@
         "enabled": true,
         "priority": 3,
         "config": {
-          "client_id": "133204832839-6uo7ft12mfe1fn8q314i23pgebg8t290.apps.googleusercontent.com",
-          "client_secret": "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"
+          "client_id": "",
+          "client_secret": ""
         }
       }
     ],
@@ -132,17 +131,17 @@
         "showRelatedProducts": true,
         "showProductReviews": true
       }
-    },
-    "database": {
-      "host": "dpg-collsm0l5elc73bk5nkg-a",
-      "port": "5432",
-      "database": "e_moio_uoai",
-      "user": "e_moio",
-      "password": "cRLRGWb9T58JBpMnOqOXrfnvjeOYGh7C"
     }
   },
+  "database": {
+    "host": "localhost",
+    "port": "5432",
+    "database": "evershop",
+    "user": "postgres",
+    "password": ""
+  },
   "sendgrid": {
-    "apiKey": "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",
+    "apiKey": "",
     "from": "support@e-moio.com",
     "events": {
       "order_placed": {
